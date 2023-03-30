@@ -1,0 +1,166 @@
+body {
+    background-color: #FAFAFA;
+    font-family: 'Red Hat Display';
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+
+.logo {
+    display: flex;
+    width: 118.72px;
+    height: 28px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 550px;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.image-hero-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -40px;
+    margin-top: 40px;
+    width: 197px;
+    height: 151.5;
+}
+
+.image-hero-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    width: 197px;
+    height: 151.5;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: -50px;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Red Hat Display';
+    margin-left: 270px;
+}
+
+.message1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    text-align: center;
+    color: #28283D;
+    font-family: 'Red Hat Display';
+
+}
+
+p {
+    display: flex;
+    font-size: small;
+    font-size: 16px;
+    text-align: center;
+    color: #87879D;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.first-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 0px;
+    width: 140px;
+    height: 45px;
+    top: 462px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4D96A9;
+   
+
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 0px;
+    width: 115px;
+    height: 45px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: #855FB1;
+}
+
+#version {
+    color: #8FE3F9;
+}
+
+.image-slide-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 180px;
+}
+
+#slide1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 270px;
+    width: 170px;
+    height: 166.3px;
+}
+ 
+#slide2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    width: 170px;
+    height: 166.3px;
+
+}
+
+#slide3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    width: 170px;
+    height: 166.3px;
+}
+
+#slide4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    width: 170px;
+    height: 166.3px;
+}
