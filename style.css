@@ -106,6 +106,10 @@ p {
 
 }
 
+.button1:hover {
+    background-color: #71C0D4;
+}
+
 .button2 {
     display: flex;
     flex-direction: row;
@@ -119,6 +123,10 @@ p {
     margin-left: 10px;
     color: #FFFFFF;
     background-color: #855FB1;
+}
+
+.button2:hover {
+    background-color: #D9B8FF;
 }
 
 #version {
