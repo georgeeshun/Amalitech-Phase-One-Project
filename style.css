@@ -1,6 +1,6 @@
 body {
     background-color: #FAFAFA;
-    font-family: 'Red Hat Display';
+    font-family: "Red Hat Display";
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -62,7 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-family: 'Red Hat Display';
+    font-family: "Red Hat Display";
     margin-left: 30px;
 }
 
@@ -72,9 +72,10 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    font-family: "Red Hat Display";
     text-align: center;
     color: #28283D;
-    font-family: 'Red Hat Display';
+    
     height: 150px;
     margin-top: 80px;
     width: 540px;
@@ -84,6 +85,7 @@ body {
 
 .mini-message {
     display: flex;
+    font-family: "Red Hat Display";
     font-size: 16px;
     text-align: center;
     color: #87879D;
@@ -111,6 +113,7 @@ body {
     color: #FFFFFF;
     background-color: #4D96A9;
     margin-top: 40px;
+    font-family: "Red Hat Display";
    
 
 }
@@ -133,6 +136,7 @@ body {
     color: #FFFFFF;
     background-color: #855FB1;
     margin-top: 40px;
+    font-family: "Red Hat Display";
 }
 
 .button2:hover {
@@ -195,6 +199,7 @@ body {
     color: #4D96A9;
     margin-top: 80px;
     text-align: center;
+    font-family: "Red Hat Display";
     font-weight: bold;
     font-size: 18px;
     height: 0px;
@@ -202,6 +207,7 @@ body {
 
 .message3 {
     font-size: 40px;
+    font-family: "Red Hat Display";
     font-weight: bold;
     text-align: center;
     height: 50px;
@@ -212,6 +218,7 @@ body {
 
 .message4 {
     display: flex;
+    font-family: "Red Hat Display";
     font-size: small;
     font-size: 16px;
     text-align: center;
@@ -256,7 +263,7 @@ body {
     align-items: center;
     margin-left: -100px;
     margin-right: 100PX;
-    font-family: 'Red Hat Display';
+    font-family: "Red Hat Display";
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -270,7 +277,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'Red Hat Display';
+    font-family: "Red Hat Display";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -289,6 +296,7 @@ body {
     border: 0px;
     width: 105px;
     height: 40px;
+    font-family: "Red Hat Display";
     font-weight: bold;
     margin-left: 10px;
     color: #FFFFFF;
