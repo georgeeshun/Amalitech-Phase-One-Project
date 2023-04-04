@@ -18,9 +18,14 @@
     
     .logo {
         display: flex;
+        background: url(assets/logo.svg) 0 0 no-repeat;
         flex-direction: row;
+        align-items: center;
+        align-content: center;
         justify-content: center; 
+        margin-left: 580px;
         margin-top: 20px;
+        height: 28px;
     }
     
     .hero-container {
@@ -36,13 +41,14 @@
         flex-direction: row;
         background: url(assets/desktop/image-hero-left.png) 0 0 no-repeat;
         width: 100%;
+        margin-left: -70px;
     }
     
     .image-hero-right {
         display: flex;
         flex-direction: row;
         background: url(assets/desktop/image-hero-right.png) 0 0 no-repeat;
-        margin-right: -40px;
+        margin-right: 0px;
         width: 100%;
     }
     
@@ -650,11 +656,15 @@
         background: #FAFAFA;
     }
     
+    .logo-container {
+       nav-down: root;
+    }
 
     .logo {
         background: url(assets/logo.svg) 0 0 no-repeat;
         display: flex;
         margin-top: 20px;
+        margin-left: 340px;
         height: 28px;
     }
 
@@ -671,7 +681,7 @@
         margin-top: 50px;
         align-items: center;
         justify-items: center;
-        width: 820px;
+        width: 890px;
         height: 303px;
     }
 
@@ -687,10 +697,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-content: center;
         justify-items: center;
-        margin-top: 320px;
-        
-
+        justify-content: center;
+        margin-top: 620px;
+        margin-left: 150px;
+        margin-right: -200px;
     }
 
     .message1 {
@@ -708,8 +720,8 @@
         align-items: center;
         align-content: center;
         justify-items: center;
-        column-gap: 15px;
-        margin: 550px 0px 20px 50px  ;
+        column-gap: 10px;
+        margin: 550px 70px 0px 0px  ;
     }
 
     #slide1 {
@@ -752,7 +764,6 @@
         align-content: center;
         justify-items: center;
         justify-content: stretch;
-        margin-left: 150px;
         margin-bottom: 200px;
         width: 573px;
         height: 240px;
@@ -761,33 +772,60 @@
     
     .footer-image {
         display: flex;
+        flex-direction: column;
         background: url(assets/tablet/image-footer.jpg)0 0 no-repeat;
         margin-top: 40px;
         width: 890px;
         height: 428px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
     }
     .footer-container {
         display: flex;
         flex-direction: column;
         width: 890px;
         height: 428px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        margin-left: -30px;
+
         
     }
 
     .message5 {
         display: flex;
         flex-direction: row;
+        text-align: center;
         align-content: center;
         align-items: center;
         align-content: center;
         justify-items: center;
-
+        margin-right: 120px;
     }
 
     .message6 {
         display: flex;
         flex-direction: row;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-left: 120px;
 
+    }
+
+    .button3 {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-right: 100px;
     }
 }
 
@@ -795,7 +833,73 @@
 @media (max-width: 375px) {
     body {
         display: flex;
-        
+        flex-direction: column;
+        background-color: #FAFAFA;
+        font-family: 'Red Hat Display Regular';
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 414px;
     }
 
+    .logo-container {
+        nav-down: root;
+     }
+
+    .logo {
+        background: url(assets/logo.svg) 0 0 no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 414px;
+        margin-top: 20px;
+        height: 28px;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-left: auto;
+    }
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        background: url(assets/tablet/image-hero.png) 0 0 no-repeat;
+        align-items: center;
+    }
+
+    .image-hero-left {
+        display: none;
+    }
+
+    .image-hero-right {
+        display: none;
+
+    }
+   
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        margin-left: -250px;
+    }
+    .first-button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: flex-start;
+    }
+    .button2 {
+        margin-top: 5px;
+    }
+
+    .image-slide-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
+
+
