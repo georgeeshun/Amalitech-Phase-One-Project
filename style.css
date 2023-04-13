@@ -387,6 +387,8 @@
         background: #FAFAFA;
         width: 768px;
         height: 2128px;
+        overflow-x: hidden;
+        overflow-y: scroll;
     }
     
     .logo-container {
