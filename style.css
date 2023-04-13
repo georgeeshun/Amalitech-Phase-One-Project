@@ -6,6 +6,7 @@
         font-family: 'Red Hat Display Regular';
         overflow-x: hidden;
         overflow-y: scroll;
+        height: 1895px;
     }
     
     .main-container {
@@ -31,30 +32,34 @@
     .hero-container {
         display: flex;
         flex-direction: row;
+        column-gap: 15px;
         justify-items: center;
         align-content: center;
-        margin-top: 50px;
+        margin-top: 100px;
+        width: 1504px;
     }
     
     .image-hero-left {
         display: flex;
         flex-direction: row;
         background: url(assets/desktop/image-hero-left.png) 0 0 no-repeat;
-        width: 100%;
-        margin-left: -70px;
+        width: 394px;
+        height: 303px;
+        margin-left: -80px;
     }
     
     .image-hero-right {
         display: flex;
         flex-direction: row;
         background: url(assets/desktop/image-hero-right.png) 0 0 no-repeat;
-        margin-right: 0px;
-        width: 100%;
+        width: 394px;
+        height: 303px;
     }
     
     .message-container {
         display: flex;
         flex-direction: column;
+        text-align: justify;
         justify-items: center;
         justify-content: center;
         align-items: center;
@@ -62,6 +67,7 @@
         font-family: "Red Hat Display";
         width: 540px;
         height: 304px;
+        top: 169px;
     }
     
     .message1 {
@@ -73,30 +79,40 @@
         justify-items: center;
         font-size: 40px;
         font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 64px;
+        line-height: 64px;
         text-align: center;
         color: #28283D;
-        
         height: 150px;
-        margin-top: 80px;
-        width: 540px;
-        height: 200px;
+        margin-top: 100px;
+        width: 498px;
+        height: 216px;
     
     }
     
     .mini-message {
         display: flex;
         font-family: "Red Hat Display";
-        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
         text-align: center;
+        width: 540px;
+        height: 52px;
         color: #87879D;
         flex-direction: column;
         justify-items: center;
         align-items: center;
+        margin-top: -30px;
     }
     
     .first-button-container {
         display: flex;
         flex-direction: row;
+        margin-top: 30px;
     }
     
     .button1 {
@@ -107,20 +123,23 @@
         column-gap: 5px;
         border-radius: 30px;
         border: 0px;
-        width: 140px;
-        height: 45px;
+        width: 193px;
+        height: 58px;
         top: 462px;
-        font-weight: bold;
         color: #FFFFFF;
         background-color: #4D96A9;
         margin-top: 40px;
         font-family: "Red Hat Display";
-       
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 16px;
+        line-height: 26px;
     
     }
     
     .button1:hover {
-        background-color: #71C0D4;
+        background-color: #8FE3F9;
+        cursor: pointer;
     }
     
     .button2 {
@@ -130,23 +149,31 @@
         align-items: center;
         border-radius: 30px;
         border: 0px;
-        width: 115px;
-        height: 45px;
-        font-weight: bold;
+        width: 139px;
+        height: 58px;
         margin-left: 10px;
         color: #FFFFFF;
         background-color: #855FB1;
         margin-top: 40px;
         font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 16px;
+        line-height: 26px;
     }
     
     .button2:hover {
         background-color: #D9B8FF;
+        cursor: pointer;
     }
     
     #version {
         color: #8FE3F9;
-        font-weight: bold;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     #version1 {
@@ -162,7 +189,7 @@
         justify-items: center;
         justify-content: center;
         align-content: center;
-        margin-top: 180px;
+        margin-top: 341px;
         
         width: 100%;
         height: 100%;
@@ -204,7 +231,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-content: center;
+        justify-content: center; 
+        text-align: center;
+        margin-left: 380px;
         border-radius: 5px;
+        width: 540px;
     
     }
     
@@ -213,16 +245,27 @@
         margin-top: 80px;
         text-align: center;
         font-family: "Red Hat Display";
-        font-weight: bold;
-        font-size: 18px;
+        font-style: normal;
+        font-weight: 900px;
+        line-height: 26px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 16px;
         height: 0px;
     }
     
     .message3 {
-        font-size: 40px;
+        display: flex;
         font-family: "Red Hat Display";
-        font-weight: bold;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        /* or 110% */
+
         text-align: center;
+
+        color: #28283D;
         height: 50px;
         margin-top: 10px;
         margin-bottom: 60px;
@@ -232,14 +275,18 @@
     .message4 {
         display: flex;
         font-family: "Red Hat Display";
-        font-size: small;
-        font-size: 16px;
+       font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
         text-align: center;
         color: #87879D;
         flex-direction: column;
         justify-items: center;
         align-items: center;
         margin-top: 30px;
+        width: 540px;
+        
     }
     
     .footer-image {
@@ -247,7 +294,7 @@
         justify-content: center;
         align-content: center;
         background: url(assets/desktop/image-footer.jpg)0 0 no-repeat;
-        margin-top: 40px;
+        margin-top: 280px;
         height: 308px;
         
     }
@@ -264,7 +311,7 @@
         mix-blend-mode: normal;
         opacity: 0.8;
         width: 1440px;
-        
+        height: 308px;
         
     }
     
@@ -306,12 +353,15 @@
         justify-items: center;
         justify-content: center;
         column-gap: 5px;
-        border-radius: 30px;
+        border-radius: 29px;
         border: 0px;
-        width: 105px;
-        height: 40px;
+        width: 193px;
+        height: 58px;
         font-family: "Red Hat Display";
-        font-weight: bold;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
         margin-left: 10px;
         color: #FFFFFF;
         background-color: #855FB1;
@@ -320,340 +370,23 @@
     }
     
     .button3:hover {
-        background-color: #D9B8FF;
+        background-color: #B188DD;
+        cursor: pointer;
     }
 
 
 /*Desktop screen*/
-@media (min-width: 1440px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        background-color: #FAFAFA;
-        font-family: "Red Hat Display";
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-    
-    
-    
-    .logo {
-        background: url(assets/logo.svg);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 40px;
-        width: 119px;
-        height: 28px;
-    }
-    
-    .hero-container {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        align-items: center;
-        column-gap: 40px;
-        margin-top: 50px;
-        column-gap: 50px;
-    }
-    
-    .image-hero-left {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        background: url(assets/desktop/image-hero-left.png) 0 0 no-repeat;
-        margin-right: 60px;
-        height: 303px;
-    }
-    
-    .image-hero-right {
-        display: flex;
-        justify-content: flex-end;
-        align-content: flex-end;
-        background: url(assets/desktop/image-hero-right.png) 0 0 no-repeat;
-        height: 303px;
-        margin-right: -80px;
-        
-    }
-    
-    .message-container {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        font-family: "Red Hat Display";
-        height: 304px;
-        margin-right: 30px;
-    }
-    
-    .message1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-        font-size: 40px;
-        font-family: "Red Hat Display";
-        text-align: center;
-        color: #28283D;
-    
-        margin-top: 80px;
-        width: 540px;
-    
-    }
-    
-    .mini-message {
-        display: flex;
-        font-family: "Red Hat Display";
-        font-size: 16px;
-        text-align: center;
-        color: #87879D;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-    }
-    
-    .first-button-container {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .button1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        column-gap: 5px;
-        border-radius: 30px;
-        border: 0px;
-        width: 140px;
-        height: 45px;
-        top: 462px;
-        font-weight: bold;
-        color: #FFFFFF;
-        background-color: #4D96A9;
-        margin-top: 40px;
-        font-family: "Red Hat Display";
-       
-    
-    }
-    
-    .button1:hover {
-        background-color: #71C0D4;
-    }
-    
-    .button2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        border: 0px;
-        width: 115px;
-        height: 45px;
-        font-weight: bold;
-        margin-left: 10px;
-        color: #FFFFFF;
-        background-color: #855FB1;
-        margin-top: 40px;
-        font-family: "Red Hat Display";
-    }
-    
-    .button2:hover {
-        background-color: #D9B8FF;
-    }
-    
-    #version {
-        color: #8FE3F9;
-        font-weight: bold;
-    }
 
-    #version1 {
-        color: #D9B8FF;
-        font-weight: bold;
-    }
-    
-    .image-slide-container {
-        display: flex;
-        flex-direction: row;
-        align-content: space-between;
-        column-gap: 20px;
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        align-content: center;
-        margin-top: 180px;
-        
-        width: 100%;
-        height: 100%;
-    }
-    
-    #slide1 {
-        display: flex;
-        flex-direction: row;
-        width: 170px;
-        height: 166.3px;
-        border-radius: 5px;
-    }
-     
-    #slide2 {
-        display: flex;
-        flex-direction: row;
-        width: 170px;
-        height: 166.3px;
-        border-radius: 5px;
-    }
-    
-    #slide3 {
-        display: flex;
-        flex-direction: row;
-        width: 170px;
-        height: 166.3px;
-        border-radius: 5px;
-    }
-    
-    #slide4 {
-        display: flex;
-        flex-direction: row;
-        width: 170px;
-        height: 166.3px;
-        border-radius: 5px;
-    }
-    
-    .message-container2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 30px;
-        border-radius: 5px;
-    
-    }
-    
-    .message2 {
-        color: #4D96A9;
-        margin-top: 80px;
-        text-align: center;
-        font-family: "Red Hat Display";
-        font-weight: bold;
-        font-size: 18px;
-        height: 0px;
-    }
-    
-    .message3 {
-        font-size: 40px;
-        font-family: "Red Hat Display";
-        font-weight: bold;
-        text-align: center;
-        height: 50px;
-        margin-top: 10px;
-        margin-bottom: 60px;
-    
-    }
-    
-    .message4 {
-        display: flex;
-        font-family: "Red Hat Display";
-        font-size: small;
-        font-size: 16px;
-        text-align: center;
-        color: #87879D;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-        margin-top: 30px;
-    }
-    
-    .footer-image {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        background: url(assets/desktop/image-footer.jpg)0 0 no-repeat;
-        margin-top: 40px;
-        height: 308px;
-        width: 1440px;
-
-        
-    }
-        
-    
-    
-    .footer-container {
-        
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-items: center;
-        justify-content: space-evenly;
-        background: #4D96A9;
-        mix-blend-mode: normal;
-        opacity: 0.8;
-        width: 1440px;
-        
-        
-    }
-    
-    
-    .message5 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-family: "Red Hat Display";
-        font-style: normal;
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 44px;
-        color: #FAFAFA;
-    
-    }
-    
-    .message6 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-family: "Red Hat Display";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
-        color: #FAFAFA;
-    }
-    
-    .button3 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        column-gap: 5px;
-        border-radius: 30px;
-        border: 0px;
-        width: 105px;
-        height: 40px;
-        font-family: "Red Hat Display";
-        font-weight: bold;
-        color: #FFFFFF;
-        background-color: #855FB1;
-        margin-top: 40px;
-       
-    }
-    
-    .button3:hover {
-        background-color: #D9B8FF;
-    }
-
-
-
-}
 
 /*Tablet screen*/
 @media (max-width: 768px) {
     body {
         display: flex;
+        position: relative;
         flex-direction: column;
         background: #FAFAFA;
+        width: 768px;
+        height: 2128px;
     }
     
     .logo-container {
@@ -664,7 +397,7 @@
         background: url(assets/logo.svg) 0 0 no-repeat;
         display: flex;
         margin-top: 20px;
-        margin-left: 340px;
+        margin-left: 380px;
         height: 28px;
     }
 
@@ -677,11 +410,16 @@
     }
 
     .hero-container {
+        display: flex;
         background: url(assets/tablet/image-hero.png) 0 0 no-repeat;
         margin-top: 50px;
         align-items: center;
         justify-items: center;
-        width: 890px;
+        flex-basis: content;
+        column-gap: 20px;
+        margin-left: 30px;
+        margin-top: 90px;
+        width: 820px;
         height: 303px;
     }
 
@@ -700,7 +438,7 @@
         align-content: center;
         justify-items: center;
         justify-content: center;
-        margin-top: 620px;
+        margin-top: 680px;
         margin-left: 150px;
         margin-right: -200px;
     }
@@ -712,16 +450,114 @@
         align-content: center;
         justify-items: center;
         justify-content: center;
+
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+
+        text-align: center;
+
+        color: #28283D;
     }
 
+    
+
+    .mini-message {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #87879D;
+    }
+
+    .first-button-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    
+    .button1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+        border-radius: 30px;
+        border: 0px;
+        width: 193px;
+        height: 58px;
+        top: 462px;
+        color: #FFFFFF;
+        background-color: #4D96A9;
+        margin-top: 40px;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 16px;
+        line-height: 26px;
+    
+    }
+    
+    .button1:hover {
+        background-color: #8FE3F9;
+        cursor: pointer;
+    }
+    
+    .button2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        border: 0px;
+        width: 139px;
+        height: 58px;
+        margin-left: 10px;
+        color: #FFFFFF;
+        background-color: #855FB1;
+        margin-top: 40px;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .button2:hover {
+        background-color: #D9B8FF;
+        cursor: pointer;
+    }
+    
+    #version {
+        color: #8FE3F9;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #version1 {
+        color: #D9B8FF;
+        font-weight: bold;
+    }
+    
     .image-slide-container {
         display: flex;
         flex-direction: row;
         align-items: center;
         align-content: center;
         justify-items: center;
-        column-gap: 10px;
-        margin: 550px 70px 0px 0px  ;
+        column-gap: 20px;
+        margin: 300px 0px 0px 10px  ;
     }
 
     #slide1 {
@@ -763,20 +599,363 @@
         align-items: center;
         align-content: center;
         justify-items: center;
-        justify-content: stretch;
         margin-bottom: 200px;
         width: 573px;
         height: 240px;
+        margin: -120px 0px 0px 0px;
+    }
+
+    .message2 {
+        color: #4D96A9;
+        margin-top: 80px;
+        text-align: center;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900px;
+        line-height: 26px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 16px;
+        height: 0px;
+    }
+    
+    .message3 {
+        display: flex;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        /* or 110% */
+
+        text-align: center;
+
+        color: #28283D;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    
+    }
+    
+    .message4 {
+        display: flex;
+        font-family: "Red Hat Display";
+       font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #87879D;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin-top: 30px;
+        width: 540px;
+        
     }
 
     
     .footer-image {
         display: flex;
         flex-direction: column;
-        background: url(assets/tablet/image-footer.jpg)0 0 no-repeat;
-        margin-top: 40px;
-        width: 890px;
+        background: url(assets/tablet/image-footer.jpg) ;
+        margin-top: 200px;
+        width: 768px;
         height: 428px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 20px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: 428px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        
+
+        
+    }
+
+    .message5 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-right: 10px;
+    }
+
+    .message6 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin-left: 230px;
+
+    }
+
+    
+    .button3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        column-gap: 5px;
+        border-radius: 29px;
+        border: 0px;
+        width: 193px;
+        height: 58px;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 10px;
+        color: #FFFFFF;
+        background-color: #855FB1;
+        margin-top: 50px;
+       
+    }
+    
+    .button3:hover {
+        background-color: #B188DD;
+        cursor: pointer;
+    }
+
+}
+
+/*Mobile screen*/
+@media (max-width: 375px) {
+    body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #FAFAFA;
+        font-family: 'Red Hat Display Regular';
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 375px;
+        margin-left: auto;
+       
+    }
+
+    .logo-container {
+        position: absolute;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+     }
+
+    .logo {
+        background: url(assets/logo.svg) 0 0 no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        width: 119px;
+        margin-top: 20px;
+        height: 28px;
+        margin-bottom: 50px;
+        margin-left: 130px;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-items: flex-start;
+    }
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        background: url(assets/tablet/image-hero.png) 1 0 no-repeat;
+        align-items: center;
+        width: auto;
+        margin-left: -30px;
+        margin-right: 1000px;
+        margin-top: 80px;
+        background-size: 378px auto;
+    }
+
+    .image-hero-left {
+        display: none;
+    }
+
+    .image-hero-right {
+        display: none;
+    }
+
+    
+   
+    .message-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 200px;  
+        margin-left: 80px;     
+
+    }
+
+    .message1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: flex-start;
+        background-size: 327px auto;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-size: 40px;
+        font-weight: 900px;
+        line-height: 64px;
+        text-align: center;
+        color: #28283D;
+    }
+    .mini-message {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 327px;
+        height: 78px;
+        left: 24px;
+        margin-top: 220px;
+
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #87879D;
+    }
+    .message2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: flex-start;
+        margin-left: 0px;
+    }
+
+    .first-button-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .button1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        border: 0px;
+        width: 193px;
+        height: 58px;
+        color: #FFFFFF;
+        background-color: #4D96A9;
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 16px;
+        line-height: 26px;
+    
+    }
+    
+    .button1:hover {
+        background-color: #8FE3F9;
+        cursor: pointer;
+    }
+    
+    .button2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        border: 0px;
+        width: 139px;
+        height: 58px;
+        margin-left: 65px;
+        margin-top: -10px;
+        color: #FFFFFF;
+        background-color: #855FB1;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .button2:hover {
+        background-color: #D9B8FF;
+        cursor: pointer;
+    }
+    
+    #version {
+        color: #8FE3F9;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #version1 {
+        color: #D9B8FF;
+        font-weight: bold;
+    }
+    
+
+    .image-slide-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .message-container2 {
+        display: flex;
+        text-align: justify;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .message3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-image {
+        display: flex;
+        flex-direction: column;
+        background: url(assets/mobile/image-footer.jpg)0 0 no-repeat;
+        background-size:375px auto;
+        margin-top: 40px;
+        width: 375px;
+        height: 540px;
         align-items: center;
         align-content: center;
         justify-content: center;
@@ -785,8 +964,8 @@
     .footer-container {
         display: flex;
         flex-direction: column;
-        width: 890px;
-        height: 428px;
+        width: 375px;
+        height: 540px;
         align-items: center;
         align-content: center;
         justify-content: center;
@@ -805,6 +984,8 @@
         align-content: center;
         justify-items: center;
         margin-right: 120px;
+        text-align: center;
+        font-size: 32px;
     }
 
     .message6 {
@@ -816,6 +997,7 @@
         align-content: center;
         justify-items: center;
         margin-left: 120px;
+        font-size: 14px;
 
     }
 
@@ -826,79 +1008,6 @@
         align-content: center;
         justify-items: center;
         margin-right: 100px;
-    }
-}
-
-/*Mobile screen*/
-@media (max-width: 375px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        background-color: #FAFAFA;
-        font-family: 'Red Hat Display Regular';
-        overflow-x: hidden;
-        overflow-y: scroll;
-        width: 414px;
-    }
-
-    .logo-container {
-        nav-down: root;
-     }
-
-    .logo {
-        background: url(assets/logo.svg) 0 0 no-repeat;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 414px;
-        margin-top: 20px;
-        height: 28px;
-    }
-    
-    .main-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-        margin-left: auto;
-    }
-    .hero-container {
-        display: flex;
-        flex-direction: column;
-        background: url(assets/tablet/image-hero.png) 0 0 no-repeat;
-        align-items: center;
-    }
-
-    .image-hero-left {
-        display: none;
-    }
-
-    .image-hero-right {
-        display: none;
-
-    }
-   
-    .message-container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 300px;
-        margin-left: -250px;
-    }
-    .first-button-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-items: flex-start;
-    }
-    .button2 {
-        margin-top: 5px;
-    }
-
-    .image-slide-container {
-        display: flex;
-        flex-direction: column;
-        
     }
 }
 
