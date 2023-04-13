@@ -1141,7 +1141,7 @@ body {
         align-items: flex-start;
         justify-content: flex-start;
         justify-items: flex-start;
-        margin: 0px 0px 0px 30px ;
+        margin: 0px 0px 0px 10px ;
      }
 
     .logo {
@@ -1212,7 +1212,7 @@ body {
         position: absolute;
         
         left: 24px;
-        margin: 220px 0px 0px 250px;
+        margin: 220px 0px 0px 210px;
         width: 327px;
         height: 78px;
 
@@ -1311,7 +1311,7 @@ body {
         justify-content: center;
         column-gap: 30px;
         row-gap: 30px;
-        margin: 350px 0px 0px 200px;
+        margin: 350px 0px 0px 180px;
         border-radius: 50px;
     }
     #slide1, #slide2, #slide3, #slide4 {
