@@ -52,7 +52,7 @@
         flex-direction: row;
         align-self: flex-start;
         background: url(assets/desktop/image-hero-left.png) 0 0 no-repeat;
-        margin: 0px 0px 0px -30px;
+        margin: 0px 0px 0px -10px;
         width: 394px;
         height: 303px;
     }
@@ -61,7 +61,7 @@
         display: flex;
         flex-direction: row;
         background: url(assets/desktop/image-hero-right.png) 0 0 no-repeat;
-        margin: 0px 0px 0px 20px;
+        margin: 30px 0px 0px 0px;
         width: 394px;
         height: 303px;
     }
@@ -260,7 +260,7 @@
         align-self: center;
         align-content: center;
         margin-top: 400px;
-        margin-left: 0%;
+        margin-left: 2%;
     }
     
     #slide1 {
@@ -353,7 +353,7 @@
         justify-items: center;
         align-items: center;
         margin-top: 30px;
-        margin-bottom: 120px;
+        margin-bottom: 50px;
         width: 540px;
     }
     .step2 {
@@ -366,7 +366,7 @@
         flex-shrink: 0;
         background-color: #87879D 25%;
         color: #FAFAFA;
-        margin: -335px 0px 0px 0px; 
+        margin: -845px 0px 0px 700px; 
         mix-blend-mode: normal;
     }
     
@@ -409,7 +409,7 @@
         line-height: 44px;
         color: #FAFAFA;
         mix-blend-mode: unset;
-        margin: 0px 0px 0px 60px;
+        margin: 0px 0px 0px 120px;
     
     }
     
@@ -670,7 +670,8 @@
         justify-items: center;
         justify-content: center;
         align-content: center;
-        margin-top: 341px;
+        margin-top: 420px;
+        margin-left: 1%;
     }
     
     #slide1 {
@@ -1251,6 +1252,8 @@
         margin-top: 150px;
         width: 1080px;
 
+       
+
     }
         
     
@@ -1266,7 +1269,16 @@
         width: 1080px;
         opacity: 0.8;
         column-gap: 60px;
+        height: 240px;
+        margin-top: -80px;
         
+    }
+
+    .step2 {
+        display: flex;
+        position: absolute;
+        margin-top: -770px;
+        margin-left: 50%;
     }
     
     
@@ -1689,13 +1701,16 @@
         height: 78px;
         margin: 15px;
 
-        
+       
     }
 
     .step2 {
         display: flex;
+        position: absolute;
         margin-top: -970px;
+        margin-left: 0%;
     }
+
     .footer-image {
         display: flex;
         flex-direction: column;
@@ -1719,6 +1734,7 @@
         align-content: center;
         justify-content: center;
         justify-items: center;
+        margin-top: 0.1%;
 
         
     }
@@ -2142,13 +2158,31 @@
         width: 56px;
         height: 56px;
         align-items: center;
-        
         margin: 20;
     }
 
     .step2 {
         display: flex;
+        flex-direction: column;
         margin-top: -970px;
+        align-self: center;
+    }
+
+    .rectangle {
+        display: flex;
+        flex-direction: column;
+        width: 56px;
+        height: 56px;
+        flex-shrink: 0;
+        align-self: center;
+    }
+
+    .number {
+        display: inline;
+        align-items: center;
+        margin-top: 30%;
+        border: white;
+        background-color: rgba(0, 0, 0, 0);
     }
 
     .footer-image {
@@ -2236,6 +2270,7 @@
         /* identical to box height, or 162% */
 
         color: #FFFFFF;
+        margin-top: 30px;
     }
 
     .button3:hover {
